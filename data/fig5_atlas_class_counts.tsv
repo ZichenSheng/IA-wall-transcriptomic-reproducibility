@@ -1,0 +1,9 @@
+atlas_class	n_genes
+Agrees within expected cell type	8
+Cellular change without clear bulk effect	58
+Compartment-compatible	139
+Disagrees (opposite within cell type)	13
+Neither resolved	502
+No class recorded	102
+Not comparable (low detection)	449
+Unresolved in cells	74

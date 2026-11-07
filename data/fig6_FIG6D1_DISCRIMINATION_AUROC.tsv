@@ -1,0 +1,16 @@
+task	regime	condition	auroc_groupcv_mean	auroc_leave_one_target_donor_out
+T1_loss_vs_state	ORIG	C1	0.6015	0.5986
+T1_loss_vs_state	ORIG	C2s	0.9358	0.9329
+T1_loss_vs_state	ORIG	C2	1.0	1.0
+T1_loss_vs_state	SC	C1	0.5576	0.5487
+T1_loss_vs_state	SC	C2s	0.9469	0.9224
+T1_loss_vs_state	SC	C2	1.0	1.0
+T1_loss_vs_state	SN	C1	0.6734	0.6466
+T1_loss_vs_state	SN	C2s	0.9541	0.9372
+T1_loss_vs_state	SN	C2	1.0	1.0
+T5_null_vs_ctrlswap_same_assay	CTRL	C1	0.5093	0.4791
+T5_null_vs_ctrlswap_same_assay	CTRL	C2s	0.6621	0.507
+T5_null_vs_ctrlswap_same_assay	CTRL	C2	0.8525	0.1389
+T6_null_vs_ctrlswap_cross_assay	CTRL	C1	0.5754	0.531
+T6_null_vs_ctrlswap_cross_assay	CTRL	C2s	0.9432	0.9217
+T6_null_vs_ctrlswap_cross_assay	CTRL	C2	1.0	0.9825

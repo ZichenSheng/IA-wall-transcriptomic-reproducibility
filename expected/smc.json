@@ -1,0 +1,47 @@
+{
+  "sha256": "40af1b005c7ca0155c78cdfe99f121d7f8ed3d70a7fbd6fe9cee7a44f22abd19",
+  "pairs": [
+    {
+      "category": "STATE",
+      "delta_share": -0.083496719,
+      "matched_factor": 0.50030673,
+      "pair_id": 304
+    },
+    {
+      "category": "STATE",
+      "delta_share": -0.09161389,
+      "matched_factor": 0.45656029,
+      "pair_id": 305
+    },
+    {
+      "category": "STATE",
+      "delta_share": -0.11144535,
+      "matched_factor": 0.36646445,
+      "pair_id": 364
+    },
+    {
+      "category": "STATE",
+      "delta_share": -0.11654859,
+      "matched_factor": 0.33522488,
+      "pair_id": 365
+    },
+    {
+      "category": "STATE",
+      "delta_share": -0.095018475,
+      "matched_factor": 0.44414453,
+      "pair_id": 424
+    },
+    {
+      "category": "STATE",
+      "delta_share": -0.1005424,
+      "matched_factor": 0.41530415,
+      "pair_id": 425
+    },
+    {
+      "category": "CTRL_SWAP",
+      "delta_share": 0.05942908,
+      "matched_factor": 1.4276876,
+      "pair_id": 309
+    }
+  ]
+}

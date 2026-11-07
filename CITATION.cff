@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Cite this version of the companion reproducibility software and the associated manuscript when available."
+type: software
+title: "Reproducible molecular information and the limits of biological identifiability in intracranial aneurysm wall transcriptomics — reproducibility software v1.0.0-rc.1"
+version: "1.0.0-rc.1"
+authors:
+  - given-names: Zichen
+    family-names: Sheng
+  - given-names: Mingze
+    family-names: Wei
+  - given-names: Kunjian
+    family-names: Lei
+  - given-names: Xingen
+    family-names: Zhu
+keywords:
+  - intracranial aneurysm
+  - transcriptomics
+  - reproducibility
+  - deconvolution
+  - identifiability

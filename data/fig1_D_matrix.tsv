@@ -1,0 +1,94 @@
+model_id	group	specimen_compartment	s1
+IAOBJ_C_004_ISP6	Exact formula recovered	ANEURYSM_WALL_TISSUE	available
+IAOBJ_X_011	Exact formula recovered	ANEURYSM_WALL_TISSUE	available
+IAOBJ_X_016	Exact formula recovered	MIXED_BLOOD_AND_WALL_TISSUE	partial
+IAREPV3_F_011_v1	Exact formula recovered	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_016_v1	Exact formula recovered	ANEURYSM_WALL_TISSUE	available
+IAOBJ_X_003	Exact formula recovered	GERMLINE_GENETIC	missing
+IAOBJ_X_005	Exact formula recovered	BLOOD_CELLS_OR_WHOLE_BLOOD	missing
+IAOBJ_X_007	Exact formula recovered	GERMLINE_GENETIC	missing
+IAOBJ_X_008	Exact formula recovered	PERIPHERAL_BLOOD	missing
+IAREPV3_F_021_v1	Exact formula recovered	ANEURYSM_WALL_TISSUE	available
+IAOBJ_C_001	Exact formula recovered	ANEURYSM_WALL_TISSUE	available
+IAOBJ_X_004	Development-exposed only	ANEURYSM_WALL_TISSUE	available
+IAOBJ_X_006	Development-exposed only	ANEURYSM_WALL_TISSUE	available
+IAOBJ_X_C03	Development-exposed only	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_005_v1	Development-exposed only	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_010_v1	Development-exposed only	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_013_v1	Development-exposed only	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_015_v1	Development-exposed only	ANEURYSM_WALL_TISSUE	available
+IAOBJ_C_002	Not reconstructable as published	BLOOD_CELLS_OR_WHOLE_BLOOD	missing
+IAOBJ_X_009	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAOBJ_X_C06	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_013_v2	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_026_v1	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S04_R4	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S04_R5	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S04_R6	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S04_R7	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S04_R8	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S11_R2	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S18_R2	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S18_R3	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S22_R1	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAOBJ_X_C04	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_006_v1	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_008_v1	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_012_v1	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_018_v1	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_019_v1	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_020_v1	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_022_v1	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_007_v1	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAOBJ_C_004_ERP7	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAOBJ_C_005	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_004_v1	Not reconstructable as published	BLOOD_CELLS_OR_WHOLE_BLOOD	missing
+IAREPV3_F_023_v1	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_025_v2	Not reconstructable as published	SERUM_OR_PLASMA	missing
+BLINDONLY_A1_S09_R3	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S22_R3	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S23_R4	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAOBJ_X_010	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAOBJ_X_012	Not reconstructable as published	UNRESOLVED	na
+IAREPV3_F_003_v1	Not reconstructable as published	UNRESOLVED	na
+IAREPV3_F_009_v1	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_017_v1	Not reconstructable as published	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S01_R6	Not a wall-RNA multigene model	BLOOD_CELLS_OR_WHOLE_BLOOD	missing
+BLINDONLY_A1_S10_R2	Not a wall-RNA multigene model	SINGLE_CELL_OR_SPATIAL	partial
+BLINDONLY_A1_S15_R4	Not a wall-RNA multigene model	SERUM_OR_PLASMA	missing
+BLINDONLY_A1_S15_R7	Not a wall-RNA multigene model	SERUM_OR_PLASMA	missing
+BLINDONLY_A1_S16_R2	Not a wall-RNA multigene model	SERUM_OR_PLASMA	missing
+BLINDONLY_A1_S16_R3	Not a wall-RNA multigene model	SERUM_OR_PLASMA	missing
+BLINDONLY_A1_S16_R4	Not a wall-RNA multigene model	SERUM_OR_PLASMA	missing
+BLINDONLY_A1_S17_R2	Not a wall-RNA multigene model	SERUM_OR_PLASMA	missing
+BLINDONLY_A1_S21_R2	Not a wall-RNA multigene model	GERMLINE_GENETIC	missing
+BLINDONLY_A1_S21_R3	Not a wall-RNA multigene model	GERMLINE_GENETIC	missing
+IAOBJ_C_003	Not a wall-RNA multigene model	GERMLINE_GENETIC	missing
+IAOBJ_X_001	Not a wall-RNA multigene model	BLOOD_CELLS_OR_WHOLE_BLOOD	missing
+IAOBJ_X_002	Not a wall-RNA multigene model	BLOOD_CELLS_OR_WHOLE_BLOOD	missing
+IAOBJ_X_013	Not a wall-RNA multigene model	GERMLINE_GENETIC	missing
+IAOBJ_X_014	Not a wall-RNA multigene model	BLOOD_CELLS_OR_WHOLE_BLOOD	missing
+IAOBJ_X_015	Not a wall-RNA multigene model	BLOOD_CELLS_OR_WHOLE_BLOOD	missing
+IAOBJ_X_017	Not a wall-RNA multigene model	BLOOD_CELLS_OR_WHOLE_BLOOD	missing
+IAOBJ_X_C01	Not a wall-RNA multigene model	SERUM_OR_PLASMA	missing
+IAOBJ_X_C02	Not a wall-RNA multigene model	BLOOD_CELLS_OR_WHOLE_BLOOD	missing
+IAREPV3_F_002_v1	Not a wall-RNA multigene model	GERMLINE_GENETIC	missing
+IAREPV3_F_014_v1	Not a wall-RNA multigene model	GERMLINE_GENETIC	missing
+IAREPV3_F_024_v1	Not a wall-RNA multigene model	SERUM_OR_PLASMA	missing
+IAREPV3_F_025_v1	Not a wall-RNA multigene model	SERUM_OR_PLASMA	missing
+BLINDONLY_A1_S03_R2	Not a wall-RNA multigene model	BLOOD_CELLS_OR_WHOLE_BLOOD	missing
+BLINDONLY_A1_S03_R3	Not a wall-RNA multigene model	BLOOD_CELLS_OR_WHOLE_BLOOD	missing
+BLINDONLY_A1_S08_R4	Not a wall-RNA multigene model	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S20_R1	Not a wall-RNA multigene model	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S23_R2	Not a wall-RNA multigene model	ANEURYSM_WALL_TISSUE	available
+IAOBJ_C_004_STAT2	Not a wall-RNA multigene model	ANEURYSM_WALL_TISSUE	available
+IAOBJ_X_C05	Not a wall-RNA multigene model	ANEURYSM_WALL_TISSUE	available
+IAREPV3_F_001_v1	Not a wall-RNA multigene model	BLOOD_CELLS_OR_WHOLE_BLOOD	missing
+BLINDONLY_A1_S13_R3	Not a wall-RNA multigene model	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S01_R2	Not a wall-RNA multigene model	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S01_R3	Not a wall-RNA multigene model	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S01_R4	Not a wall-RNA multigene model	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S01_R5	Not a wall-RNA multigene model	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S22_R4	Not a wall-RNA multigene model	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S23_R5	Not a wall-RNA multigene model	ANEURYSM_WALL_TISSUE	available
+BLINDONLY_A1_S23_R6	Not a wall-RNA multigene model	ANEURYSM_WALL_TISSUE	available

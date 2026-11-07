@@ -1,0 +1,12 @@
+label	cohort	decision	calibration_gate
+m6A-4	GSE54083	beyond matched null	PASS
+m6A-4	GSE75436	beyond matched null	PASS
+m6A-4	Wang 2026 atlas	direction consistent, not established	NA
+NET-5	GSE54083	not beyond matched null	PASS
+NET-5	GSE15629	not beyond matched null	PASS
+NET-5	GSE122897	not replicated	FAIL
+NET-5	Wang 2026 atlas	descriptive	NA
+ISP-6	GSE54083	not beyond matched null	PASS
+ISP-6	Wang 2026 atlas	descriptive	NA
+IRMIR	GSE122897	not beyond matched null	PASS
+MixRUP-4	GSE15629	not replicated (underpowered)	PASS
