@@ -2,6 +2,8 @@
 import argparse
 import json
 
+import numpy as np
+
 from . import reproduce_gene_claims, reproduce_rupture_decomposition
 from .common import check, read, validate_inputs
 
@@ -36,11 +38,6 @@ def verify_aggregates(collective):
         raise ValueError('Model class counts failed')
     if list(models.loc['IAOBJ_X_008', ['specimen_compartment', 's1']]) != ['PERIPHERAL_BLOOD', 'missing']:
         raise ValueError('November 7 MLDGS correction failed')
-    annotation = read('fig1_E_effect_summary.tsv').set_index('contrast').loc['IA-CTRL']
-    check(annotation.n_genes, 18918)
-    check(round(annotation.pearson_r, 2), -0.01)
-    check(round(annotation.sign_agreement, 2), 0.50)
-
     programmes = read('fig3_B_PROGRAMME_OBS_PRED.tsv').set_index('program')
     blood = programmes.loc[['PLATELET', 'NEUTROPHIL_ENRICHED', 'ERYTHROID_HEMOGLOBIN']]
     if not ((blood.obs - blood.pred - blood.resid).abs() < 1e-8).all() or not (blood.resid_lo > 0).all():
@@ -90,6 +87,27 @@ def verify_aggregates(collective):
             'fig6_nnls_only_discrimination_AUROC': nnls.auroc_groupcv_mean.item()}
 
 
+def reproduce_fig1_annotation_comparison():
+    pairs = read('fig1_E_gene_effects_IA_CTRL.tsv.gz', float_precision='round_trip')
+    if list(pairs) != ['gene', 'g_default', 'g_corrected']:
+        raise ValueError('Unexpected Figure 1E columns')
+    if pairs.gene.isna().any() or pairs.gene.duplicated().any():
+        raise ValueError('Missing or duplicated Figure 1E gene identifiers')
+    effects = pairs[['g_default', 'g_corrected']].to_numpy(dtype=float)
+    if not np.isfinite(effects).all():
+        raise ValueError('Non-finite Figure 1E effects')
+    default, corrected = effects.T
+    pearson_r = float(np.corrcoef(default, corrected)[0, 1])
+    sign_agreement = float(np.mean(np.sign(default) == np.sign(corrected)))
+
+    reference = read('fig1_E_effect_summary.tsv').set_index('contrast').loc['IA-CTRL']
+    check(len(pairs), 18918)
+    check(len(pairs), reference.n_genes)
+    check(pearson_r, reference.pearson_r, tolerance=1e-12)
+    check(sign_agreement, reference.sign_agreement, tolerance=1e-12)
+    return {'n_genes': len(pairs), 'pearson_r': pearson_r, 'sign_agreement': sign_agreement}
+
+
 def run(workflow='all'):
     validate_inputs()
     report = {}
@@ -98,6 +116,7 @@ def run(workflow='all'):
     if workflow in ('all', 'rupture'):
         report['fig3'] = reproduce_rupture_decomposition.run()
     if workflow == 'all':
+        report['fig1e_level_B'] = reproduce_fig1_annotation_comparison()
         report['frozen_checks_level_C'] = verify_aggregates(report['fig2_level_B'])
     return {'status': 'PASS', **report}
 

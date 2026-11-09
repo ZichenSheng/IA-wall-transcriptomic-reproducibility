@@ -1,6 +1,6 @@
 # Scholarly attribution
 
-The author list and order follow the clean November 7, 2026 IA manuscript.
+The author list and order follow the final November 9, 2026 IA manuscript.
 
 1. Zichen Sheng
 2. Mingze Wei
